@@ -1,0 +1,132 @@
+
+/** Conf Pagina **/
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+
+	background: url(../img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;
+}
+
+
+
+/** Cabeçalho pagina **/
+
+header{
+
+	width: 1200px;
+	margin: 10px auto;
+}
+
+#logo{
+
+	width: 300px;
+	float: left;
+}
+
+
+#link {
+
+	width: 700px;
+	float: right;
+}
+
+
+#link a{
+
+	text-decoration: none;
+	color: #af670a;
+	font-size: 15px;
+	padding: 10px;
+	margin-left: 15px;
+}
+
+#link a:hover{
+
+	border-bottom: 1px solid gray;
+	color: green;
+}
+
+
+
+
+/** conteudos **/
+
+
+#conteudos{
+
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	background: white;
+	margin: auto;
+	margin-top: 20px;
+	width: 1200px;
+}
+
+
+table{
+
+	margin: auto;
+}
+
+table img{
+
+	margin: 5px;
+	border-radius: 5px;
+}
+
+
+table iframe{
+
+	margin-left: 110px;
+}
+
+table h2{
+
+	color: green;
+}
+
+
+#conteudos p{
+
+	margin: 10px;
+}
+
+#conteudos h1{
+
+	margin: 10px;
+	color: green;
+}
+
+
+
+/** Rodape **/
+
+
+footer{
+
+	background: url(../img/fundo-rodape.png) repeat-x;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+footer a{
+
+	padding: 10px;
+	text-decoration: none;
+	color: #af670a;
+}
+
+
+footer a:hover{
+
+	text-decoration: underline;
+	color: green;
+}

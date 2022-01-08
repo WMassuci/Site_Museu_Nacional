@@ -1,0 +1,144 @@
+
+/** Configuração gerais da pagina **/
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background: url(../img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;
+}
+
+
+/** Cabeçalho 1 **/
+
+header{
+
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#logo{
+
+	width: 300px;
+	float: left;
+}
+
+#nav1 {
+
+	width: 600px;
+	float: right;
+}
+
+#nav1 a{
+
+	padding: 10px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #af670a;
+}
+
+
+#nav1 a:hover{
+
+	color: green;
+	border-bottom: 1px solid gray;
+}
+
+
+/** Conteudo **/
+
+#conteudo{
+
+	width: 950px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-radius: 2px;
+	background: #fff;
+}
+
+
+/** Conteudo centro **/
+
+
+#c-center{
+
+	width: 800px;
+	margin-left: 80px;
+	padding: 20px;
+	border-radius: 8px;
+	border: 1px solid #bfbfbf;
+	float: left;
+	text-align: justify;
+
+}
+
+
+#c-center h1{
+
+	display: inline;
+	margin-bottom: 15px;
+	color: green;
+	border-bottom: 1px solid gray;
+}
+
+
+#c-center h3{
+
+	margin: 5px;
+	color:  #af670a;
+}
+
+#c-center img{
+
+	margin: 20px;
+	margin-left: 130px;
+	border-radius: 5px;
+}
+
+
+/** Conteudo lateral **/
+
+#c-lateral{
+
+	width: 70px;
+	position: fixed;
+	float: left;
+}
+
+#c-lateral img:hover{
+
+	transform: translateY(-5px);
+	cursor: pointer;
+}
+
+
+
+/** Rodape **/
+
+footer{
+
+	background: url(../img/fundo-rodape.png) repeat-x;
+	text-align: center;
+}
+
+
+footer a{
+
+	text-decoration: none;
+	color: #af670a;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+footer a:hover{
+
+	color: green;
+	text-decoration: underline;
+}

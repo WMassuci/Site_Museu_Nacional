@@ -1,0 +1,194 @@
+
+/** Configuração da site **/
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background: #f4f2ec url(../img/fundo.png) repeat-x;
+	font-family: 12px "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;
+}
+
+
+/** Cabeçalho 1 **/
+
+header{
+
+	width: 1200px;
+	margin: 20px auto;
+}
+
+
+.img{
+	width: 250px;
+	float: left;
+}
+
+
+nav{
+	width: 600px;
+	float: right;
+}
+
+header a{
+
+	text-decoration: none;
+	color: #af670a;
+	margin: 10px;
+}
+
+header a:hover{
+
+	border-bottom: 1px solid gray;
+	color: green;
+}
+
+
+
+/** Conteudos principais **/
+
+#principal{
+
+	width: 1200px;
+	margin: 20px auto;
+	margin-top: 50px;
+}
+
+
+.capa{
+
+	float: left;
+	width: 750px;
+
+}
+
+
+.capa h3 {
+
+	color: green;
+	margin: 10px;
+}
+
+.capa p{
+
+	margin: 10px;
+	text-align: justify;
+}
+
+
+.capa .fimg{
+
+	margin-left: 100px;
+	border-radius: 10px;
+}
+
+.dp{
+
+	float: right;
+}
+
+
+
+
+/** Conteudo Laterais **/
+
+
+.noticias{
+
+	background: #e6e6e6;
+	width: 300px;
+}
+
+
+.noticias p{
+
+	margin: 8px;
+}
+
+
+.noticias h3{
+	color: green;
+	margin-left: 8px;
+}
+
+
+
+.visita{
+
+	width: 300px;
+	background: #cdc8b1;
+}
+
+
+.visita h3{
+
+	color: #af670a;
+	margin-left: 8px;
+}
+
+fieldset input{
+
+	margin-left: 8px;
+	width: 50px;
+}
+
+fieldset{
+
+	border: none;
+}
+
+
+.botao{
+
+	margin-top: 5px;
+	width: 200px;
+	height: 40px;
+	margin-left: 50px;
+	margin-bottom: 4px;
+	background: #9b9271;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+
+.mapa{
+
+	width: 300px;
+}
+
+.mapa h3{
+
+	color: green;
+}
+
+
+
+/** Rodape **/
+
+footer{
+
+	background: url(../img/fundo-rodape.png) repeat-x;
+}
+
+.rodape{
+
+	margin-right: 350px;
+}
+
+.rodape a{
+
+	text-decoration: none;
+	color: #af670a;
+	margin-top: 5px;
+	padding: 10px;
+}
+
+.direitos {
+
+	margin-left: 80px;
+}
